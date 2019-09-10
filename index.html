@@ -139,25 +139,55 @@
       <!-- About Section Heading -->
       <h2 class="page-section-heading text-center text-uppercase text-white">Signes</h2>
 
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">afegir videos</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">afegir videos</p>
-        </div>
-      </div>
-
+<!--Carousel Wrapper-->
+<div id="video-carousel-example" class="carousel slide carousel-fade"  data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+    <li data-target="#video-carousel-example" data-slide-to="1"></li>
+    <li data-target="#video-carousel-example" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <video width="60%" heigth="auto" class="video-fluid" autoplay loop muted style="margin:0 20%">
+        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+      </video>
+	  <div class="carousel-caption">
+		<p>Signe 1</p>
+	  </div>
+    </div>
+    <div class="carousel-item">
+      <video width="60%" heigth="auto" class="video-fluid" autoplay loop muted style="margin:0 20%">
+        <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+      </video>
+	  <div class="carousel-caption">
+		<p>Signe 2</p>
+	  </div>
+    </div>
+    <div class="carousel-item">
+     <video width="60%" heigth="auto" class="video-fluid" autoplay loop muted style="margin:0 20%">
+         <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+      </video>
+ 	  <div class="carousel-caption">
+		<p>Signe 3</p>
+	  </div>
+   </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--Carousel Wrapper-->
       
 
     </div>
@@ -181,8 +211,8 @@
 
     <p>Aquesta web es el resultat de la part pràctica del Treball de Recerca realitzat per Anna Giménez estudiant al Duc de Montblanc, i tutoritzat per Esther Borderas. El curs 2019-2020.</p>
     <ul>
-	<li> citacions </li>
-	<li> asdfg </li>
+	<li><div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div></li>
+	<li><div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div></li>
 	<li> asdfg </li>
 	<li> asdfg </li>
 	<li> asdfg </li>
@@ -192,44 +222,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-
-        <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
-        </div>
-
-        <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
-          </a>
-        </div>
-
-        <!-- Footer About Text -->
-        <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Baby Signs</a>.</p>
-        </div>
-
-      </div>
-    </div>
-  </footer>
+ 
 
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
@@ -304,7 +297,7 @@
 </ul>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
-                  Close Window
+                  Tancar finestra
                 </button>
               </div>
             </div>
@@ -355,7 +348,7 @@ desenvolupament del llenguatge.</p>
 </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
-                  Close Window
+                  Tancar finestra
                 </button>
               </div>
             </div>
@@ -394,7 +387,7 @@ desenvolupament del llenguatge.</p>
                 <p class="mb-5"></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
-                  Close Window
+                  Tancar finestra
                 </button>
               </div>
             </div>
